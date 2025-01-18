@@ -227,9 +227,9 @@ crossnma <- function(x,
   ##
   ## Monitor (sucra)
   ##
-  if(x$sucra){
+  if (x$sucra) {
     monitor.sucra <- "SUCRA"
-    monitor <- c(monitor,monitor.sucra)
+    monitor <- c(monitor, monitor.sucra)
   }
 
   res <- list(

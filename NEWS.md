@@ -1,3 +1,15 @@
+## crossnma, version 1.3.1 (2025-mm-dd)
+
+### User visible changes
+
+* Update reference Verde (2021) in vignette
+
+### Internal changes
+
+* crossnma.model():
+  - new list element 'small.values'
+
+
 ## crossnma, version 1.3.0 (2024-11-28)
 
 ### Major changes
