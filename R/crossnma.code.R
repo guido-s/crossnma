@@ -1691,7 +1691,7 @@ for (k in 1:nt) {
 
 # SUCRAS
 for (k in 1:nt) {
-  SUCRA[k]<- sum(cumeffectiveness[k,1:(nt-1)])/(nt-1)
+  SUCRA[k] <- sum(cumeffectiveness[k,1:(nt-1)])/(nt-1)
 }",
 dmat,
 most.eff.code)
