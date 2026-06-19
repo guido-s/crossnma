@@ -3,6 +3,7 @@ Official Git repository of R package **crossnma**
 
 [![License: GPL (>=2)](https://img.shields.io/badge/license-GPL-blue)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![CRAN Version](https://www.r-pkg.org/badges/version/crossnma)](https://cran.r-project.org/package=crossnma)
+[![GitHub develop](https://img.shields.io/badge/develop-1.3.2-purple)](https://img.shields.io/badge/develop-1.3.2-purple)
 [![Monthly Downloads](https://cranlogs.r-pkg.org/badges/crossnma)](https://cranlogs.r-pkg.org/badges/crossnma)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/crossnma)](https://cranlogs.r-pkg.org/badges/grand-total/crossnma)
 
@@ -32,12 +33,16 @@ through JAGS software
 install.packages("crossnma")
 ```
 
-### Current beta / GitHub release:
+### Current [![GitHub develop](https://img.shields.io/badge/develop-1.3.2-purple)](https://img.shields.io/badge/develop-1.3.2-purple) release on GitHub:
 
 Installation using R package
 [**remotes**](https://cran.r-project.org/package=remotes):
 ```r
 install.packages("remotes")
+remotes::install_github("guido-s/crossnma", build_vignettes = TRUE)
+```
+or without the vignette
+```r
 remotes::install_github("guido-s/crossnma")
 ```
 
@@ -78,7 +83,8 @@ bug.report(package = "crossnma")
 The bug.report function is not supported in RStudio. Please send an
 email to Tasnim Hamza <hamza.a.tasnim@gmail.com> if you use RStudio.
 
-You can also report bugs on GitHub under [Issues](https://github.com/guido-s/crossnma/issues/).
+You can also report bugs on GitHub under
+[Issues](https://github.com/guido-s/crossnma/issues/).
 
 
 ### References
