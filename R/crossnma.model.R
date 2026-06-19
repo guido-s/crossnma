@@ -1258,8 +1258,8 @@ crossnma.model <- function(trt,
       attr(data1, "cov.mean") <- NULL
       attr(data1, "cov.labels") <- NULL
     }
-    
-    
+
+
     ## Create a matrix of treatment per study row
     jagsdata1 <- list()
 
@@ -1497,8 +1497,8 @@ crossnma.model <- function(trt,
     xbias.ipd <- NULL
     bias_index.ipd <- NULL
   }
-  
-  
+
+
   ##
   ## Aggregated data
   ##
@@ -1749,8 +1749,8 @@ crossnma.model <- function(trt,
   jagsdata$bias_index <-
     c(bias_index.ipd$bias_index, bias_index.ad$bias_index)
   jagsdata$xbias <- c(xbias.ipd, xbias.ad)
-  
-  
+
+
   ## when method.bias is adjust1 or adjust 2: add studies index:
   ## 1. studies need bias adjustment and has inactive treatment
   ##    (bias.group  =1)
@@ -2375,7 +2375,8 @@ crossnma.model <- function(trt,
               trt.key = trt.key,
               study.key = study.key,
               trt.effect = trt.effect,
-              sucra=sucra,
+              sucra = sucra,
+              small.values = small.values,
               method.bias = method.bias,
               level.ma = level.ma,
               quantiles =

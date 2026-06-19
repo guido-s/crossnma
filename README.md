@@ -21,7 +21,8 @@ from randomized or non-randomized studies coming from
 individual-participants or aggregate data ([Hamza et al.,
 2023](https://doi.org/10.1002/jrsm.1619)). The package implements
 Bayesian models in network meta-analysis and network meta-regression
-through JAGS software.
+through JAGS software
+[(Hamza et al., 2024)](https://doi.org/10.1186/s12874-023-02130-0).
 
 
 ## Installation
@@ -37,7 +38,7 @@ Installation using R package
 [**remotes**](https://cran.r-project.org/package=remotes):
 ```r
 install.packages("remotes")
-remotes::install_github("htx-r/crossnma")
+remotes::install_github("guido-s/crossnma")
 ```
 
 
@@ -59,7 +60,7 @@ vignette("crossnma")
 
 ## How to cite crossnma?
 
-[Hamza T, Chalkou K, Pellegrini F, et al. (2023): Synthesizing cross-design evidence and cross-format data using network meta-regression. *Research Synthesis Methods*, **14**, 283-300](https://doi.org/10.1002/jrsm.1619)
+[Hamza T, Schwarzer G, Salanti G (2024): crossnma: An R Package to Synthesize Cross-Design Evidence and Cross-Format Data Using Network Meta-Analysis and Network Meta-Regression. *BMC Medical Research Methodology*, **24**, 169](https://doi.org/10.1186/s12874-023-02130-0)
 
 A BibTeX entry for LaTeX users is provided by
 
@@ -77,9 +78,11 @@ bug.report(package = "crossnma")
 The bug.report function is not supported in RStudio. Please send an
 email to Tasnim Hamza <hamza.a.tasnim@gmail.com> if you use RStudio.
 
-You can also report bugs on GitHub under [Issues](https://github.com/htx-r/crossnma/issues/).
+You can also report bugs on GitHub under [Issues](https://github.com/guido-s/crossnma/issues/).
 
 
-### Reference
+### References
 
 [Hamza T, Chalkou K, Pellegrini F, Kuhle J, Benkert P, Lorscheider J, Zecca C, Iglesias-Urrutia CP, Manca A, Furukawa TA, Cipriani A, Salanti G (2023): Synthesizing cross-design evidence and cross-format data using network meta-regression. *Research Synthesis Methods*, **14**, 283-300](https://doi.org/10.1002/jrsm.1619)
+
+[Hamza T, Schwarzer G, Salanti G (2024): crossnma: An R Package to Synthesize Cross-Design Evidence and Cross-Format Data Using Network Meta-Analysis and Network Meta-Regression. *BMC Medical Research Methodology*, **24**, 169](https://doi.org/10.1186/s12874-023-02130-0)

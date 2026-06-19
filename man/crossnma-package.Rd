@@ -44,7 +44,7 @@ Further details:
 \item To report problems and bugs send an email to
   \email{hamza.a.tasnim@gmail.com}
 \item The development version of \bold{crossnma} is available on
-  GitHub \url{https://github.com/htx-r/crossnma}.
+  GitHub \url{https://github.com/guido-s/crossnma}.
 }
 }
 \references{
@@ -91,7 +91,7 @@ different types and quality.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/htx-r/crossnma}
+  \item \url{https://github.com/guido-s/crossnma}
 }
 
 }

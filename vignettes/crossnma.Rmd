@@ -281,7 +281,7 @@ Another way to incorporate the RoB of the study is by replacing
 $\delta_{jbk}$ by a "bias-adjusted" relative treatment effect
 $\theta_{jbk}$. Then $\theta_{jbk}$ is modeled with a bimodal normal
 distribution as described in Section 2.5. For more details see
-@verde_2020.
+@verde_2021.
 
 **NMR model for IPD studies**
 

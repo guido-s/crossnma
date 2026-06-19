@@ -40,13 +40,13 @@
 #' \item To report problems and bugs send an email to
 #'   \email{hamza.a.tasnim@@gmail.com}
 #' \item The development version of \bold{crossnma} is available on
-#'   GitHub \url{https://github.com/htx-r/crossnma}.
+#'   GitHub \url{https://github.com/guido-s/crossnma}.
 #'}
 #'
 #' @name crossnma-package
 #'
 #' @author Tasnim Hamza \email{hamza.a.tasnim@@gmail.com},
-#' Guido Schwarzer \email{guido.schwarzer@uniklinik-freiburg.de},
+#' Guido Schwarzer \email{guido.schwarzer@@uniklinik-freiburg.de},
 #' Georgia Salanti \email{georgia.salanti@@ispm.unibe.ch}
 #'
 #' @references
@@ -93,14 +93,9 @@
 #' @keywords package
 #'
 #' @importFrom graphics plot
-#' @importFrom ggplot2 aes element_blank element_text geom_text
-#'   geom_tile ggplot scale_fill_gradient2 scale_x_discrete
-#'   scale_y_discrete theme theme_dark
+#' @importFrom ggplot2 aes element_blank element_text geom_text geom_tile ggplot scale_fill_gradient2 scale_x_discrete scale_y_discrete theme theme_dark
 #' @importFrom magrittr %>% %<>%
-#' @importFrom dplyr .data arrange bind_cols bind_rows case_when do
-#'   everything filter group_by group_keys group_map group_size
-#'   left_join mutate n pull rename row_number select starts_with
-#'   summarize summarise_all ungroup
+#' @importFrom dplyr .data arrange bind_cols bind_rows case_when do everything filter group_by group_keys group_map group_size left_join mutate n pull rename row_number select starts_with summarize summarise_all ungroup
 #' @importFrom plyr mapvalues
 #' @importFrom tidyr as_tibble gather spread unnest
 #' @importFrom rlang quo
@@ -109,8 +104,7 @@
 #' @importFrom meta gs pairwise
 #' @importFrom netmeta netmeta netgraph heatplot netconnection
 #' @importFrom rjags jags.model coda.samples
-#' @importFrom coda as.mcmc.list effectiveSize nchain niter nvar
-#'   traceplot varnames
+#' @importFrom coda as.mcmc.list effectiveSize nchain niter nvar traceplot varnames
 
 "_PACKAGE"
 
