@@ -1,4 +1,4 @@
-## crossnma, version 1.3.1 (2025-mm-dd)
+## crossnma, version 1.3.1 (2026-06-19)
 
 ### User visible changes
 
